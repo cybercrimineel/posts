@@ -20,8 +20,8 @@ equation.
 ## Usage
 
 [Fork this repository](https://github.com/cybercrimineel/posts/fork) and
-[enable GitHub pages](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
-. You can now add your posts to the `posts` directory. Navigating to
+[enable GitHub pages](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+You can now add your posts to the `posts` directory. Navigating to
 `<your username>.github.io/posts/?_=example`, will render the
 `posts/example.md` file. The default post is called `null.md`.
 
