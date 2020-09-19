@@ -1,7 +1,7 @@
 # Posts
 
 Posts is a front end rendering engine, created to be used in conjunction with
-[GitHub pages](https://pages.github.com/). This project allows you to easily
+[GitHub Pages](https://pages.github.com/). This project allows you to easily
 create your own repository for posts, while approaching things differently.
 
 ## Syntax
@@ -20,7 +20,7 @@ equation.
 ## Usage
 
 [Fork this repository](https://github.com/cybercrimineel/posts/fork) and
-[enable GitHub pages](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+[enable GitHub Pages](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 You can now add your posts to the `posts` directory. Navigating to
 `<your username>.github.io/posts/?_=example`, will render the
 `posts/example.md` file. The default post is called `null.md`.
