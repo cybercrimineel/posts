@@ -28,7 +28,8 @@ You can now add your posts to the `posts` directory. Navigating to
 ## Building
 
 You won't have to build when no changes were made to the files inside the `src`
-directory. See `package.json` for building and cleaning scripts.
+directory. See `package.json` for `build` and `clean` scripts . The `serve`
+script can be used to start a local development server.
 
 ## Credit
 

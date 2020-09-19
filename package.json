@@ -13,6 +13,7 @@
   },
   "scripts": {
     "build": "parcel build --log-level 4 --no-source-maps --public-url /posts/dist src/markup.pug",
-    "clean": "rm -r dist"
+    "clean": "rm -r dist",
+    "serve": "node serve.js"
   }
 }
