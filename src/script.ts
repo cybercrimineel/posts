@@ -1,6 +1,6 @@
 import { HtmlRenderer, Parser } from 'commonmark';
-import { renderToString } from 'katex';
 import { highlightBlock } from 'highlight.js';
+import { renderToString } from 'katex';
 
 fetch(`posts/${new URLSearchParams(location.search).get('_')}.md`)
     .then(response => response.text())
