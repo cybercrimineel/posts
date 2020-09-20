@@ -6,7 +6,7 @@ fetch(`posts/${new URLSearchParams(location.search).get('_')}.md`)
     .then(response => response.text())
     .then(value => {
         document.body.innerHTML = new HtmlRenderer().render(new Parser({ smart: true }).parse(value));
-        document.title = document.querySelector('h1')?.innerHTML;
+        document.title = document.querySelector('h1')?.innerHTML || document.title;
 
         document.querySelectorAll('pre>code').forEach(element => {
             if (element.classList.contains('language-latex')) {
