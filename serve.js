@@ -1,5 +1,3 @@
-const { readFile } = require('fs');
-
 require('http').createServer((req, res) => {
     let path = req.url.split('?')[0];
 
@@ -9,7 +7,7 @@ require('http').createServer((req, res) => {
         path = path.replace(/^\/posts(?=\/dist)/, '');
     }
 
-    readFile(`${__dirname}${path}`, (err, data) => {
+    require('fs').readFile(`${__dirname}${path}`, (err, data) => {
         if (err) {
             res.writeHead(404);
             res.end(JSON.stringify(err));
